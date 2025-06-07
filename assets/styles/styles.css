@@ -40,6 +40,13 @@ table,th,td {
   }
 }
 
+@media (prefers-color-scheme: dark) and (prefers-contrast: more) {
+  body {
+    background-color: oklch(21.14% 0.021 285.75);
+    color: oklch(90% 0.008 286.75);
+  }
+}
+
 /*main {
   margin-block: 0;
   margin-inline: 1rem;
